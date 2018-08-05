@@ -1,0 +1,158 @@
+@media print{
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.tm-main-nav{
+		display: none;
+	}
+	.tm-main-content{
+		margin: 0px;
+	}
+	.tm-banner{
+		margin-bottom: 0px;
+		padding: 0px;
+		height: auto;
+	}
+	.tm-banner-inner{
+		height: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.tm-content-box{
+		display: flex;
+		flex-direction: column;
+	}
+	.tm-section-title{
+		margin-top: 0px;
+	}
+	h2.tm-section-title{
+		color: blue;
+		padding-top: 0px;
+	}
+	.tm-content-box{
+		margin-bottom: 0px;
+		
+	}
+	.tm-team-description-container{
+		max-width: 800px;
+		padding-right: 50px;
+		padding-left: 30px;
+		margin-top: 30px;
+		padding-bottom: 0px;
+	}
+	.tm-content-box.flex-2-col{
+		margin-bottom: 20px;
+	}
+	.pad{
+		padding-top: 0px;
+	}
+	#about, .heading.tm-content-box, .blocks, #ideas, .img-fluid, #contact, .tm-main-nav{
+		display: none;
+	}
+}
+@media screen{
+	.box a img{
+		border-radius:100%;
+	}
+	.box h2{
+		font-size:50px;
+	}
+	.box h2:hover{
+		color: white;
+		background: #76cdd7;
+		font-weight: bold;
+	}
+	p::first-letter {
+		font-size: 30px;
+		color: #76cdd7;
+	}
+	.tm-sidebar, .tm-banner, .tm-content-box, #about, .heading {
+		box-shadow: 0px 0px 10px 0px #000000;
+	}
+	.carousel-content div h2{
+		color:gainsboro;
+		letter-spacing: 5px;	
+	}
+	h2 + p{
+		font-style: italic;
+	}
+	.heading a:visited{
+		color: silver;
+		text-decoration: none;
+	}
+	.heading a:hover{
+		color: blue;
+		text-decoration:none;
+		border-bottom:double;
+	}
+	a[class="text"]::after{
+		content:"New";
+		color:red;
+		font-size:10px;
+		vertical-align: super;
+	}
+	.tm-content-box .pad .tm-section-description{
+		line-height:30px;
+		text-indent: 30px;
+	}
+	.heading h2{
+		text-align:center;
+		color:#76cdd7;
+	}
+	.blocks .gallery-container li:nth-child(odd){
+		background: gainsboro;
+	}
+	.gallery-container li p::first-letter{
+		color: black;
+	}
+	.tm-main-nav{
+		padding:0px;
+	}
+	.tm-main-nav li:nth-child(-n+3){
+		border-bottom:1px dotted;	
+	}
+	.form-group .form-control{
+		color: red;
+	}
+	.btn{
+		color: red;
+	}
+	.btn:hover{
+		color: white;
+		background: #76cdd7;
+	}
+	#contact_email{
+		content: "*";
+	}
+	.mandatory-field::after{
+		content: "*";
+		color: red;
+	}
+	section::before{
+		content: "";
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 25px 110px 0 0;
+		border-color: #76cdd7 transparent;
+	}
+	#home::before{
+		content: "";
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 25px 110px 0 0;
+		border-color: #76cdd7 transparent;
+		position:absolute;
+	}
+}
+
+/* 
+
+write your code here
+
+*/
