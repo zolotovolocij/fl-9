@@ -1,0 +1,57 @@
+$color-design1:#61e2e2;
+
+.main-wrapper{
+    background:white;
+    font-family:Helvetica;
+    nav{
+       a{
+           color:$color-design1;
+           text-transform: uppercase;
+       }
+    }
+    .toolbar{
+        input{
+            border-style: solid;
+            border-color: $color-design1;
+            &::placeholder{
+                color:$color-design1;
+            }
+        }
+    }
+    article{
+        background:lighten(silver,15%);
+        color:darken(silver,30%);
+        .post-description{
+            color:$color-design1;
+        }
+        h3{
+            color:$color-design1;
+            text-transform: uppercase;
+        }
+    }
+    #about{
+        h1{
+            color:$color-design1;
+            text-transform: uppercase;
+        }
+        p{
+            color:darken(silver,30%); 
+        }
+    }
+    #contact{
+        h1{
+            color:$color-design1;
+        }
+        h4{
+            color:$color-design1;
+            text-transform: uppercase;
+        }
+    }
+    .form-input{
+        button{
+            background:$color-design1;
+            color: white;
+            
+        }
+    }
+}

@@ -1,0 +1,64 @@
+$color-design2:#f07955;
+.main-wrapper{
+    background: lighten(silver,20%);
+    font-family: serif;
+    nav{
+       a{
+           color: $color-design2;
+           text-transform: uppercase;
+       }
+    }
+    .toolbar{
+        input{
+            border-style: solid;
+            border-color: $color-design2;
+            background: lighten(silver,20%);
+            &::placeholder{
+                color: $color-design2;
+            }
+        }
+    }
+    article{
+        background: white;
+        color: darken(silver,30%);
+        .post-description{
+            color: silver;
+        }
+        h3{
+            color:darken($color: silver, $amount: 25);
+            text-transform: uppercase;
+        }
+    }
+    #about{
+        h1{
+            color:$color-design2;
+            text-transform: uppercase;
+        }
+        p{
+            color:darken(silver,30%); 
+        }
+    }
+    #contact{
+        h1{
+            color:$color-design2;
+            margin-top: 30px;
+        }
+        h4{
+            color:$color-design2;
+            text-transform: uppercase;
+        }
+    }
+    .form-input{
+        input{
+            background: lighten(silver,20%);
+        }
+        textarea{
+            background: lighten(silver,20%);
+        }   
+        button{
+            background:$color-design2;
+            color: white;
+            
+        }
+    }
+}

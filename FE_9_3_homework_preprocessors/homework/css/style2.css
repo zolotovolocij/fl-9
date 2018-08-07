@@ -1,0 +1,149 @@
+.main-wrapper {
+  background: #f3f3f3;
+  font-family: serif; }
+  .main-wrapper nav a {
+    color: #f07955;
+    text-transform: uppercase; }
+  .main-wrapper .toolbar input {
+    border-style: solid;
+    border-color: #f07955;
+    background: #f3f3f3; }
+    .main-wrapper .toolbar input::placeholder {
+      color: #f07955; }
+  .main-wrapper article {
+    background: white;
+    color: #747474; }
+    .main-wrapper article .post-description {
+      color: silver; }
+    .main-wrapper article h3 {
+      color: gray;
+      text-transform: uppercase; }
+  .main-wrapper #about h1 {
+    color: #f07955;
+    text-transform: uppercase; }
+  .main-wrapper #about p {
+    color: #747474; }
+  .main-wrapper #contact h1 {
+    color: #f07955;
+    margin-top: 30px; }
+  .main-wrapper #contact h4 {
+    color: #f07955;
+    text-transform: uppercase; }
+  .main-wrapper .form-input input {
+    background: #f3f3f3; }
+  .main-wrapper .form-input textarea {
+    background: #f3f3f3; }
+  .main-wrapper .form-input button {
+    background: #f07955;
+    color: white; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main-wrapper {
+  width: 80%;
+  margin: 0 10%;
+  height: 100%; }
+  .main-wrapper section {
+    margin: 0 5%; }
+  .main-wrapper header {
+    position: relative;
+    display: flex; }
+    .main-wrapper header .logo {
+      align-content: center;
+      display: block;
+      width: 30%;
+      float: left;
+      margin-left: 5%; }
+      .main-wrapper header .logo img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-height: auto; }
+    .main-wrapper header nav {
+      float: right;
+      display: flex;
+      width: 60%;
+      height: 50px;
+      border-top: 1px solid silver;
+      border-bottom: 1px solid silver;
+      justify-content: space-around;
+      margin-top: 160px;
+      margin-bottom: 30px;
+      margin-right: 5%; }
+      .main-wrapper header nav a {
+        line-height: 50px;
+        text-decoration: none; }
+  .main-wrapper .toolbar {
+    text-align: end;
+    margin-right: 5%; }
+    .main-wrapper .toolbar input {
+      width: 150px;
+      height: 30px;
+      padding-left: 15px; }
+  .main-wrapper article {
+    width: 46%;
+    margin: 1%;
+    padding: 10px;
+    max-height: max-content; }
+    .main-wrapper article .post-description {
+      border-bottom: 2px solid silver;
+      padding: 5px 0;
+      margin-bottom: 5px; }
+    .main-wrapper article p {
+      line-height: 25px; }
+    .main-wrapper article h3 {
+      margin-right: 100px; }
+  .main-wrapper img {
+    width: 100%; }
+  .main-wrapper #list {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 30px; }
+  .main-wrapper #about h1 {
+    text-align: end; }
+  .main-wrapper #about p {
+    margin-bottom: 20px;
+    line-height: 25px; }
+  .main-wrapper #contact h1 {
+    text-align: end;
+    padding-top: 20px; }
+  .main-wrapper #contact h4 {
+    text-align: end;
+    padding-bottom: 15px; }
+  .main-wrapper .form-input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 230px; }
+    .main-wrapper .form-input button {
+      position: absolute;
+      width: 150px;
+      height: 30px;
+      right: 0px;
+      bottom: 0px;
+      top: 200px;
+      border: 0px; }
+    .main-wrapper .form-input div input {
+      width: 100%;
+      height: 30px;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      border: 1px solid grey; }
+    .main-wrapper .form-input div.message textarea {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+      height: 70px;
+      padding-left: 10px;
+      padding-top: 5px;
+      border: 1px solid grey; }
+  .main-wrapper footer {
+    color: silver;
+    font-size: 10px;
+    margin-left: 5%;
+    margin-bottom: 5px; }
+
+/*# sourceMappingURL=style2.css.map */
