@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;   
+}
+html{
+    min-width: 900px;
+    height: 100%;
+}
+span{
+    font-weight: bold;
+}
+.home{
+    width: 100%;
+    height: 50vmax;
+    background-image: url(../img/apples.jpg);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+.articles{
+    background-color: #F3F3F3;
+    padding-bottom: 6%;
+}
+.head{
+    text-align: center;
+    padding: 10% 0 7% 0;
+}
+.head h1{
+    font-weight: normal;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.flex-container .flex-element-img img{
+    width: 100%;
+}
+.flex-container div{
+    position: relative;
+    padding: 0.5%;
+}
+.flex-element-img{
+    width: 66%;
+}
+.flex-element-text{
+    width: 33%;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 h1{
+    font-weight: normal;
+}
+.sec1{
+    width: 50%;
+    padding: 10% 2%;
+}
+.sec2{
+    width: 50%;
+    padding: 10% 2%;
+}
+.name{
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 0px 30px;
+}
+.logo{
+    height: 40%;
+    text-align: center;
+}
+.logo H1{
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.logo span{
+    font-size: 80px;
+}
+.logo{
+    font-size: 12px;
+}
+.btn{
+    height: 20%;
+    text-align: center;
+}
+.btn button{
+    background: rgba(0, 0, 0, 0.25);
+    padding: 15px 70px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+.name{
+    padding: 30px;
+}
+.flex-element-img .like{
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.25);
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+.flex-element-img .country{
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+    color: #F0F0F0;
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    margin: 3%;
+    padding: 5% 1%;
+}
+.sub .letter{
+    width: 65%;
+}
+
+.sub .letter input[type=submit]{
+    position: absolute;
+    width: 8%;
+    height: 55px;
+    background-color: #000;
+    border: none;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sub .letter input[type=email]{
+    position: relative;
+    padding: 2%;
+    color: #000;
+    width: 87%;
+    height: 55px;
+    background: #F0F0F0;
+    border: 1px solid #000;
+}
+.footer_wrap{
+    
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+    margin: 5%;
+    margin-bottom: 0;
+    padding-bottom: 10%;
+  
+    
+}
+.footer_container{
+    width: 25%;
+    margin: 3%;
+}
+.footer_container p{
+    color: #9E9E9E;
+    padding-top: 10%;
+}
+
+.footer_wrap div:nth-child(2){
+    font-style: italic;
+}
+.footer_container .input_form{
+    padding-top: 2%;
+}
+.footer_container .input_form input[type='email']{
+    position: relative;
+    background: #E8E8E8;   
+    width: 80%;
+    padding: 2%;
+    border: solid 1px #000;
+
+}
+.footer_container .time{
+    color: #F3F3F3;
+    font-style: normal;
+}
+.footer_container .input_form input[type='email']::placeholder{
+    color: #000;
+    font-size: 12px;
+}
+.footer_container .input_form input[type='button']{
+    position: absolute;
+    border: 1px solid #000;
+    background:#000;
+    color: #fff; 
+    height: auto;
+    padding: 0.35%;
+} 
+
+.footer_bar{
+    margin: 1% 5%;
+}
+.footer_bar p{
+    display: inline-block;
+    color: #B7C8D9;
+}
+.footer_bar a{
+    text-decoration: none;
+}
+footer ul{
+    text-align: end;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    
+    
+}
+footer ul li {
+    display: inline-block;
+    padding-left: 5%;
+}
+footer ul li a{
+    color: #000;
+}
