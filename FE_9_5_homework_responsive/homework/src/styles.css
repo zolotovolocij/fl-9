@@ -1,0 +1,196 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+/* :root {
+  #0a1223: #0a1223;
+  --bg-color--light: #fff;
+  --link: #5d5d5d;
+  --link--active: #54597d;
+  --link--hover: #54597d;
+  --article-title: #ddd;
+  --article-title--dark: #000;
+  --thumbnail--description: #5d5d5d;
+  --btn-color: #fff;
+  --btn-bg-color: #5ebcff;
+
+  --navigation-border-bottom: #ddd;
+  --thumbnail-title: #484747;
+} */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0a1223;
+}
+.home{
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.home h1{
+  color: #ddd;
+  padding: 100px 40px;
+  font-size: 60px;
+}
+.navigation{
+  text-align: right;
+}
+.navigation a{
+  color: #5d5d5d;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+}
+.navigation a:hover{
+  color: #54597d;
+}
+.navigation a:active{
+  color: #54597d;
+}
+.content-box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12%;
+}
+.content-box .element-img {
+  width: 48%;
+  padding: 1%;
+  align-content: center;
+}
+.content-box .element-img img{
+  width: 100%;
+} 
+.content-box .element-cont{
+  width: 48%;
+  padding: 1%;
+} 
+.content-box h2{
+  font-size: 40px;
+  color:#ddd;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #ddd, #484747);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+} 
+.content-box p{
+  text-indent: 20px;
+  text-align: justify;
+  color: #5d5d5d;
+}
+.elem1 { order: 1; }
+.elem2 { order: 2; }
+.elem3 { order: 4; }
+.elem4 { order: 3; }
+.elem5 { order: 5; }
+.elem6 { order: 6; }
+.elem7 { order: 8; }
+.elem8 { order: 7; }
+.elem9 { order: 9; }
+.elem10 { order: 10; }
+.elem11 { order: 12; }
+.elem12 { order: 11; }
+.elem13 { order: 13; }
+.elem14 { order: 14; }
+.elem15 { order: 16; }
+.elem16 { order: 15; }
+.elem17 { order: 17; }
+.elem18 { order: 18; }
+.elem19 { order: 20; }
+.elem20 { order: 19; }
+
+.btn{
+  position: fixed;
+  padding: 20px;
+  bottom: 2%;
+  right: 2%;
+  display: none;
+}
+.btn a{
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+  background: #5ebcff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 0px;
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px){
+  .navigation{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .content-box{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0% 20%;
+    width: 100%;
+  }
+  .content-box .element-cont{
+    width: 100%;
+    padding: 1%;
+  } 
+  .content-box .element-img{
+    width: 100%;
+    padding: 10% 0px;
+  }
+  .content-box .element-img img{
+    width: 100%;
+  }
+  .btn{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px){
+
+  html{
+    background:#fff;
+  }
+
+  .home h1{
+    color: #000;
+  }
+  .content-box{
+    padding: 5%;
+  }
+
+  .content-box h2{
+    font-size: 40px;
+    color: #ddd;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #484747, #484747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .navigation a{
+    border-bottom: 1px solid #000;
+  }
+  .navigation a:nth-of-type(1){
+    font-weight: bold;
+  }
+  .btn{
+    display: block;
+  }
+}
+/* Your styles go here */
