@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#item_list {
+    display: flex;
+    flex-direction: wrap;
+    width: 100%;
+    padding: 40px;
+}
+#checkbox{
+    display: flex;
+    float: left;
+}
+#item{
+    display: flex;
+    background-color: #fff;
+    border: none;
+    width: 90%;;
+}
+#remove_btn{
+    display: flex;
+    float: right;
+}
